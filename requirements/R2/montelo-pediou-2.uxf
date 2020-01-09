@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>533</x>
+      <y>390</y>
+      <w>312</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>Οδοντίατρος
+--
+όνομα: String
+επώνυμο: String
+τηλέφωνο: String
+email: String
+άδεια άσκησης επαγγέλματος: String
+πανεπιστήμιο φοίτησης: String
+τοποθεσία ιατρείου: Address
+χρόνια προϋπηρεσίας: int
+κωδικός πρόσβασης: String
+ID οδοντιάτρου: String
+--
+..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>988</x>
+      <y>65</y>
+      <w>195</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Πελάτης
+--
+όνομα: String
+επώνυμο: String
+διεύθυνση: Address
+τηλέφωνο: String
+email: String
+ΑΜΚΑ: String
+--
+..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>559</x>
+      <y>65</y>
+      <w>247</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Επίσκεψη Πελάτη
+--
+ημερομηνία ραντεβού: Date
+ειδικά σχόλια: String
+--
+..
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>442</y>
+      <w>234</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>Ραντεβού
+--
+όνομα: String
+επώνυμο: String
+τηλέφωνο: String
+email: String
+ημερομηνία ραντεβού: Date
+--
+..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>494</y>
+      <w>208</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+&lt; κλείνει</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>793</x>
+      <y>104</y>
+      <w>221</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+&lt; πραγματοποιεί</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>169</y>
+      <w>221</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+πραγματοποιείται σε v</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>195</y>
+      <w>273</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Υπηρεσίες
+--
+όνομα υπηρεσίας[0..Ν]: String
+ID υπηρεσίας: String
+--
+..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>949</x>
+      <y>741</y>
+      <w>273</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Ειδικότητες
+--
+όνομα ειδικότητας [0..Ν]: String
+ID ειδικότητας: String
+--
+..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>104</y>
+      <w>338</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+&lt; επιλέγονται υπηρεσίες από</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>650</y>
+      <w>312</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+επιλέγει &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;220.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>299</y>
+      <w>312</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+&lt; παρέχει</panel_attributes>
+    <additional_attributes>220.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

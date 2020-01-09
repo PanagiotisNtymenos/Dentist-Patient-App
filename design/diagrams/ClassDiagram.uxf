@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>963</y>
+      <w>216</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Enumeration&gt;&gt;
+ConnectionState
+(util package)
+--
+CONNECTED: ConnectionState
+DISCONNECTED: ConnectionState</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1269</x>
+      <y>1080</y>
+      <w>189</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Enumeration&gt;&gt;
+AppointmentState
+(util package)
+--
+PENDING: AppointmentState
+ACCEPTED: AppointmentState</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>81</y>
+      <w>189</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+SystemDate
+(util package)
+--
+- stub: SimpleCalendar
+--
+# SystemDate()
+# setStub(SimpleCalendar): void
+# removeStub(): void
++ now(): Simple Calendar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>441</y>
+      <w>198</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Service
+(domain package)
+--
+- serviceName: String
+- serviceID: String
+--
++ Service()
++ Service(Service)
++ Service(String, String)
++ getServiceName(String): String
++ setServiceName(): void
++ getServiceID(): String
++ setServiceID(String): void
++ equals(Object): boolean
++ hashCode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1251</x>
+      <y>729</y>
+      <w>234</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Specialization
+(domain package)
+--
+- specializationName: String
+- specializationID: String
+--
++ Specialization()
++ Specialization(Specialization)
++ Specialization(String, String)
++ getSpecializationName(): String
++ setSpecializationName(String): void
++ getSpecializationID(): String
++ setSpecializationID(String): void
++ equals(Object): boolean
++ hashCode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>738</x>
+      <y>81</y>
+      <w>234</w>
+      <h>279</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+SimpleCalendar
+(util package)
+--
+- MILLIS_PER_DAY: long
+- date: Calendar
+--
++ SimpleCalendar(int, int, int)
++ SimpleCalendar(Calendar)
+- trimToDays(Calendar): void
++ durationInDays(SimpleCalendar): long
++ getYear(): int
++ getMonth(): int
++ getDayOfMonth(): int
++ getDayOfWeek(): int
++ after(SimpleCalendar): boolean
++ before(SimpleCalendar): boolean
++ compareTo(SimpleCalendar): int
++ equals(Object): boolean
++ hashCode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>369</y>
+      <w>252</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Address
+(util package)
+--
+- street: String
+- number: String
+- city: String
+- country: String
+- zip: int
+--
++ Address()
++ Address(Address)
++ Address(String, String, String, String, int)
++ getStreet(): String
++ setStreet(String): void
++ getNumber(): String
++ setNumber(String): void
++ getCity(): String
++ setCity(String): void
++ getZipCode(): int
++ setZipCode(int): void
++ getCountry(): String
++ setCountry(String): void
++ equals(Object): boolean
++ hashCode: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>9</y>
+      <w>252</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Client
+(domain package)
+--
+- firstName: String
+- lastName: String
+- telephoneNo: String
+- email: String
+- AMKA: String
+--
++ Client()
++ Client(Client)
++ Client(String, String, String, String, String)
++ getFirstName(): String
++ setFirstName(String): void
++ getLastName(): String
++ setLastName(String): void
++ getTelephoneNo(): String
++ setTelephoneNo(String): void
++ getEmail(): int
++ setEmail(String): void
++ getAMKA(): String
++ setAMKA(String): void
++ equals(Object): boolean
++ hashCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>0</y>
+      <w>351</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Visit
+(domain package)
+--
+- dateOfVisit: SimpleCalendar
+- comments: String
+- dentist: Dentist
+- client: Client
+- services: Set&lt;Service&gt;
+--
++ Visit()
++ Visit(Visit)
++ Visit(SimpleCalendar, String, Dentist, Client, Set&lt;Service&gt;)
++ getDateOfVisit(): SimpleCalendar
++ setDateOfVisit(SimpleCalendar): void
++ getComments(): String
++ setComments(String): void
++ getDentist(): Dentist
++ setDentist(Dentist): void
++ getClient(): Client
++ setClient(Client): void
++ getServices(): Set&lt;Service&gt;
++ setServices(Set&lt;Service&gt;): void
++ equals(Object): boolean
++ hashCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>9</x>
+      <y>693</y>
+      <w>396</w>
+      <h>423</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Appointment
+(domain package)
+--
+- firstName: String
+- lastName: String
+- telephoneNo: String
+- email: String
+- dentist: Dentist
+- bookDate: SimpleCalendar
+--
++ Appointment()
++ Appointment(Appointment)
++ Appointment(String, String, String, String, Dentist, SimpleCalendar)
++ getFirstName(): String
++ setFirstName(String): void
++ getLastName(): String
++ setLastName(String): void
++ getTelephoneNo(): String
++ setTelephoneNo(String): void
++ getEmail(): String
++ setEmail(String): void
++ getDentist(): Dentist
++ setDentist(Dentist): void
++ getBookDate(): SimpleCalendar
++ setBookDate(SimpleCalendar): void
++ getState(): AppointmentState
++ setState(AppointmentState): void
++ equals(Object): boolean
++ hashCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>594</x>
+      <y>477</y>
+      <w>414</w>
+      <h>819</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Dentist
+(domain package)
+--
+- firstName: String
+- lastName: String
+- telephoneNo: String
+- email: String
+- exerciseLicense: String
+- universityAttended: String
+- password: String
+- dentistID: String
+- timeOfExperience: int
+- infirmaryLocation: Address
+- ID: int
+- state: ConnectionState
+- specializations: Set&lt;Specialization&gt;
+- services: Set&lt;Service&gt;
+--
++ Dentist()
++ Dentist(Dentist)
++ Dentist(String, String, String, String, String, String, Address, int, String)
++ getFirstName(): String
++ setFirstName(String): void
++ getLastName(): String
++ setLastName(String): void
++ getTelephoneNo(): String
++ setTelephoneNo(String): void
++ getEmail(): String
++ setEmail(String): void
++ getExerciseLicense(): String
++ setExerciseLicense(Dentist): void
++ getUniversityAttended(): String
++ setUniversityAttended(String): void
++ getInfirmaryLocation(): Address
++ setInfirmaryLocation(Address): void
++ getTimeOfExperience(): int
++ setTimeOfExperience(int): void
++ getPassword(): String
++ setPassword(String): void
++ getID(): String
++ setID(String): void
++ getState(): ConnectionState
++ setState(ConnectionState): void
++ getSpecializations(): Set&lt;Specializations&gt;
++ getServices(): Set&lt;Services&gt;
++ getAppointments(): Set&lt;Appointment&gt;
++ addService(Service): void
++ removeService(Service): void
++ addSpecialization(Specialization): void
++ removeSpecialization(Specialization): void
++ acceptAppointment(Appointment): void
++ declineAppointment(Appointment): void
++ login(String, String): void
++ recordVisit(SimpleCalendar, String, Dentist, Client, Service): void
++ createClientCard(String): void
++ equals(Object): boolean
++ hashCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>1089</y>
+      <w>288</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+</panel_attributes>
+    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>711</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..* appointments
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>837</x>
+      <y>351</y>
+      <w>27</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>288</y>
+      <w>261</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>270.0;10.0;160.0;10.0;160.0;230.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>342</y>
+      <w>261</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..*    visit
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0;270.0;170.0</additional_attributes>
+  </element>
+</diagram>

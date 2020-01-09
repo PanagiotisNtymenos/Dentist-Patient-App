@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>90</x>
+      <y>160</y>
+      <w>380</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>type=Package
+TechnologiaLogismikou-omada8
+	app/src/main/java
+		com/example/efarmoghgiaodontiatrous
+			domain
+				Appointment
+				Client
+				Dentist
+				Service
+				Specialization
+				Visit
+			util
+				Address
+				AppointmentState
+				ConnectionState
+				SimpleCalendar
+				SystemDate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>700</x>
+      <y>310</y>
+      <w>420</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>domain
+bg=light_gray
+layer=9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>350</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Appointment
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>350</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Client
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>350</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Dentist
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>430</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Service
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>430</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Specialization
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>430</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Visit
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>700</x>
+      <y>530</y>
+      <w>420</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>util
+bg=light_gray
+layer=9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>570</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+Address
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>570</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+AppointmentState
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>570</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+ConnectionState
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>650</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+SimpleCalendar
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>650</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+SystemDate
+layer=10
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>680</x>
+      <y>280</y>
+      <w>460</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>efarmoghgiaodontiatrous
+bg=gray
+layer=8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>660</x>
+      <y>250</y>
+      <w>500</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>example
+bg=gray
+layer=7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>640</x>
+      <y>220</y>
+      <w>540</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>com
+bg=white
+layer=6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>620</x>
+      <y>190</y>
+      <w>580</w>
+      <h>580</h>
+    </coordinates>
+    <panel_attributes>java
+layer=5
+bg=light_gray
+transparency=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>600</x>
+      <y>160</y>
+      <w>620</w>
+      <h>620</h>
+    </coordinates>
+    <panel_attributes>main
+bg=light_gray
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>580</x>
+      <y>130</y>
+      <w>660</w>
+      <h>660</h>
+    </coordinates>
+    <panel_attributes>src
+bg=light_gray
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>560</x>
+      <y>100</y>
+      <w>700</w>
+      <h>700</h>
+    </coordinates>
+    <panel_attributes>app
+bg=dark_gray
+layer=2
+transparency=55</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>540</x>
+      <y>70</y>
+      <w>740</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>TechnologiaLogismikou-omada8
+bg=black
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

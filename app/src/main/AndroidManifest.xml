@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.efarmoghgiaodontiatrous">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="e-Dentist"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.Dentist.ViewSchedule.ViewScheduleActivity"></activity>
+        <activity android:name=".view.Dentist.ViewStatistics.ViewStatisticsActivity" />
+        <activity android:name=".view.Dentist.DentistViewProfile.DentistViewProfileActivity" />
+        <activity android:name=".view.Dentist.DentistViewHistory.DentistViewHistoryActivity" />
+        <activity android:name=".view.Dentist.DentistUpdateAccount.DentistUpdateAccountActivity" />
+        <activity android:name=".view.Dentist.DentistMenu.DentistMenuActivity" />
+        <activity android:name=".view.Dentist.DentistAppointmentManagement.DentistAppointmentManagementActivity" />
+        <activity android:name=".view.AndroidUtil.DentistAdapter" />
+        <activity android:name=".view.Client.SearchDentist.DentistSearchActivity" />
+        <activity android:name=".view.Client.RequestAppointment.RequestAppointmentActivity" />
+        <activity android:name=".view.Client.GuestMenu.GuestMenuActivity" />
+        <activity android:name=".view.Dentist.DentistLogin.DentistLoginActivity" />
+        <activity android:name=".view.Dentist.RecordService.RecordServiceActivity" />
+        <activity android:name=".view.Dentist.DentistSignup.DentistSignupActivity" />
+        <activity android:name=".view.HomePage.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
