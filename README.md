@@ -62,7 +62,7 @@ ___
 # Συνολική περιγραφή
 ## Επισκόπηση μοντέλου περιπτώσεων χρήσης
 
-![](R1.png)
+![](requirements/R2/R1.png)
 
 |Κωδικός|Τίτλος|Σύντομη Περιγραφή|
 |-|-|-|
@@ -117,25 +117,25 @@ ___
 
 ### Περιγραφές περιπτώσεων χρήσης
 
-[ΠΧ1 Επίσκεψη Πελάτη](uc1-client-visit.md)
+[ΠΧ1 Επίσκεψη Πελάτη](requirements/R2/uc1-client-visit.md)
 
-[ΠΧ2 Προβολή Ιστορικού Πελάτη](uc2-show-client-history.md)
+[ΠΧ2 Προβολή Ιστορικού Πελάτη](requirements/R2/uc2-show-client-history.md)
 
-[ΠΧ3 Ταυτοποίηση Λογαριασμού](uc3-account-identification.md)
+[ΠΧ3 Ταυτοποίηση Λογαριασμού](requirements/R2/uc3-account-identification.md)
 
-[ΠΧ4 Δημιουργία & Διαχείριση Λογαριασμού](uc4-account-registeration-and-management.md)
+[ΠΧ4 Δημιουργία & Διαχείριση Λογαριασμού](requirements/R2/uc4-account-registeration-and-management.md)
 
-[ΠΧ5 Στατιστικά Στοιχεία Εργασιών](uc5-service-statistics.md)
+[ΠΧ5 Στατιστικά Στοιχεία Εργασιών](requirements/R2/uc5-service-statistics.md)
 
-[ΠΧ6 Διαχείριση Ραντεβού](uc6-appointment-management.md)
+[ΠΧ6 Διαχείριση Ραντεβού](requirements/R2/uc6-appointment-management.md)
 
-[ΠΧ7 Καταγραφή Ειδικοτήτων Οδοντιάτρων](uc7-dentist-specialization-registeration.md)
+[ΠΧ7 Καταγραφή Ειδικοτήτων Οδοντιάτρων](requirements/R2/uc7-dentist-specialization-registeration.md)
 
-[ΠΧ8 Καταγραφή Εργασιών Οδοντιάτρων](uc8-dentist-service-registeration.md)
+[ΠΧ8 Καταγραφή Εργασιών Οδοντιάτρων](requirements/R2/uc8-dentist-service-registeration.md)
 
-[ΠΧ9 Αναζήτηση Οδοντιάτρου](uc9-dentist-research.md)
+[ΠΧ9 Αναζήτηση Οδοντιάτρου](requirements/R2/uc9-dentist-research.md)
 
-[ΠΧ10 Αίτηση Ραντεβού](uc10-appointment-request.md)
+[ΠΧ10 Αίτηση Ραντεβού](requirements/R2/uc10-appointment-request.md)
 ___
 
 ## Συμπληρωματικές προδιαγραφές
@@ -165,25 +165,25 @@ ___
 ___
 # Υποστηρικτικό υλικό
 ## Μοντέλο πεδίου
-![](montelo-pediou-2.png)
+![](requirements/R2/montelo-pediou-2.png)
 ___
 
 ## Ανάλυση περιπτώσεων χρήσης
 ### Κλάσεις ανάλυσης
-![](class-analysis.png)
+![](requirements/R2/class-analysis.png)
 
 ### Συμπεριφορές
 Τα διαγράμματα ακολουθίας για τις πιο σημαντικές περιπτώσεις χρήσης βρίσκονται στους παρακάτω συνδέσμους:
 
-[ΠΧ1 Επίσκεψη Πελάτη](uc1-client-visit.md)
+[ΠΧ1 Επίσκεψη Πελάτη](requirements/R2/uc1-client-visit.md)
 
-[ΠΧ4 Δημιουργία & Διαχείριση Λογαριασμού](uc4-account-registeration-and-management.md)
+[ΠΧ4 Δημιουργία & Διαχείριση Λογαριασμού](requirements/R2/uc4-account-registeration-and-management.md)
 
-[ΠΧ9 Αναζήτηση Οδοντιάτρου](uc9-dentist-research.md)
+[ΠΧ9 Αναζήτηση Οδοντιάτρου](requirements/R2/uc9-dentist-research.md)
 
 #### Άνοιγμα νέου λογαριασμού
 ## Άλλα μοντέλα
-![](state-machine.png)
+![](requirements/R2/state-machine.png)
 
 ## Επιχειρησιακοί κανόνες
 |Επιχειρησιακοί Κανόνες|Περιγραφή|
